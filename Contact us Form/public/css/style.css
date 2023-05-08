@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.outerDiv{
+    display: flex;
+    justify-content: center;
+}
+.formElement{
+    margin-top: 10px;
+}
+#buttonDiv{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}

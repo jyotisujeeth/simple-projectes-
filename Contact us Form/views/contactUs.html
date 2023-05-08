@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outerDiv">
+        <form action="/contact" method="post">
+            <h3>Book Call</h3>
+            <div class="formElement">
+                <label for="name">Name</label>
+                <input type="text" name="name">
+            </div>
+            <div class="formElement">
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </div>
+            <div class="formElement">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone">
+            </div>
+            <div class="formElement">
+                <label for="time">Time and Date</label>
+                <div class="innerFormElement">
+                    <input type="date" name="date">
+                    <input type="time" name="time">
+                </div>    
+            </div>
+            <div id="buttonDiv">
+                <input type="submit" value="Request Call">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
